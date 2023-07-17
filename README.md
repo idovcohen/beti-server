@@ -44,6 +44,16 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
+#Docker
+You can run this client on docker using by running the commands
+
+docker build -t beti-server .
+
+docker run -d -p 8000:8000 beti-server
+
+You may need to create a docker network to let it communicate with Redis if you're using a Redis container on Docker.
+
+
 
 ## Test
 
